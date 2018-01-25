@@ -8,9 +8,9 @@
   }
   
   body {
-      bachground:#777;
+      background:#777;
       color: #777;
-      font-size: 18px
+      font-size: 18px;
       font-family: "ariel", "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -35,10 +35,10 @@ Nav {
   
 section {
     float: left;
-    width: 40%
+    width: 40%;
     height: 250px;
     padding-top: 10px;
-    margin-left: 30px
+    margin-left: 30px;
     background-color: #fff;
     border: 1px solid black;
   }
@@ -69,16 +69,24 @@ article {
   }
 
 aside {
-    float: left;
-    width: 300px;
-    height: 90%;
+    background-color:#ebebeb; 
+    float: right;
+    padding: 110px;
+    width: 650px;
+    height: 300%;
     margin-bottom: 20px;
 }
 footer {
     clear: both;
-    padding: 20px;
+    background-color:#ebebeb;
+    padding: 50px;
+    height: 40px;
+    width: 100%
     }
-
-
-</body>
-</html>
+    .h1,h2,h3{
+      clear: both;
+      background-color:#ebebeb;
+      padding: 20px;
+      height: 20px;
+      width: 50%
+    }
